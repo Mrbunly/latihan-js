@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>belajar js</title>
+    </head>
+   <body> 
+<h2> sedang latihan membuat if/else</h2>
+<p id="aic"></p>
+</body>
+
+<script>
+const jam = new Date().getHours();
+let waktu;
+
+if (jam < 18) {
+waktu = "Selamat Pagi";
+} else {
+waktu = "Selamat Malam";
+}
+
+document.getElementById("aic").innerHTML = "Waktu Sekarang" + Waktu;
+
+</script>
+</html>
