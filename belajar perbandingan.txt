@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar JS</title>
+    </head>
+    <body bgcolor=brown>
+    <h5 style="color:white">
+        Sedang Latihan Oprator Perbandingan
+    </h5>
+         <p id="aic" style="color:white"></p>    
+    </body>
+     
+    <script>
+         
+var a = 6 != 4;
+    document.getElementById("aic").innerHTML = "hasil= " + a;   
+       
+   
+    </script>
+    <hr>
+</html>
